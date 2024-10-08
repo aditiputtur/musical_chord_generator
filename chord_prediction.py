@@ -57,6 +57,7 @@ def extract_chords_from_midi(midi_file):
     except Exception as e:
         print(f"Error processing {midi_file}: {e}")
         return None
+    
 
 def create_sequences(melody, chords, seq_length):
     melody_sequences = []
